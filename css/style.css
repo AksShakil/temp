@@ -1,0 +1,725 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.clr{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#header_area{
+    width: 100%;
+    min-height: 100vh;
+    background: #eceaff;
+    color: #525252;
+}
+
+
+nav{
+
+    background: #1a1a1a;
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+.logo{
+    width: 120px;
+}
+
+.user_pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+nav ul{
+    width: 100%;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: .4s;
+}
+
+
+nav ul li a:hover{
+    color: blueviolet;
+}
+
+
+
+.sub_menu_wrap{
+
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 1;
+    opacity: 1;
+
+    transition: max-height 0.5s;
+
+}
+
+.sub_menu_wrap.open_menu{
+
+    max-height: 400px;
+}
+
+.sub_menu{
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.user_info{
+    
+    display: flex;
+    align-items: center;
+}
+
+.user_info h2{
+
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.user_info img{
+
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.user_info hr{
+
+    background-color: #ccc;
+    height: 1px;
+    width: 100%;
+    margin: 15px 0;
+
+}
+
+
+.sub_menu_link{
+
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: #525252;
+}
+
+.sub_menu_link p{
+    width: 100%;
+
+}
+
+
+.sub_menu_link p{
+    width: 100%;
+    margin-top: 10px;
+    transition: .4s;
+
+}
+
+.sub_menu_link img{
+    width: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 15px;
+    margin-right: 15px;
+    opacity: 0;
+}
+
+.sub_menu_link span{
+    margin-top: 15px;
+    font-size: 22px;
+    transition: transform 0.5s;
+}
+
+
+.sub_menu_link:hover span{
+
+    transform: translateX(5px);
+
+
+}
+
+.sub_menu_link:hover p{
+    font-weight: 600;
+    color: #f1f1f1f1;
+
+}
+
+
+
+
+
+/* man part start */
+
+#man{
+    height: 800px;
+    width: 100%;
+    margin-top: -640px;
+}
+
+
+
+#man .tp{
+    display: flex;
+}
+
+
+#man .tp .left{
+    width: 50%;
+    height: 500px;
+}
+
+#man .tp .left h3{
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+#man .tp .left .mmm{
+    margin-top: 20px;
+}
+
+
+#man .tp .left h2{
+    font-size: 60px;
+    margin-top: -50px;
+}
+
+
+#man .tp .left a{
+
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #f1f1f1f1;
+    background: rgb(62, 61, 61);
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 40px;
+    transition: .4s;
+
+}
+
+
+#man .tp .left a:hover{
+    background: rgb(179, 179, 235);
+    color: rgb(1, 19, 1);
+}
+
+
+
+/* #man .tp .left .btn{
+
+    height: 20px;
+    width: 100px;
+    background: red;
+    padding: 20px 30px;
+} */
+
+
+
+#man .tp .right{
+    width: 50%;
+    height: 500px;
+}
+
+
+#man .tp .right img{
+    margin-left: 100px;
+}
+
+
+/* man part end */
+
+
+
+
+
+
+
+
+/* man_TWO part START */
+
+#man_2 h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+#man_2 .second{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#man_2 .second .left2{
+
+    width: 50%;
+    
+}
+
+
+#man_2 .second .left2 img{
+
+    width: 550px;
+}
+
+
+
+
+
+
+
+
+#man_2 .second .right2{
+
+    width: 50%;
+    text-align: left;
+    margin-left: 100px;
+    
+}
+
+#man_2 .second .right2 h3{
+    
+    margin-top: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#man_2 .second .right2 h2{
+
+    font-size: 40px;
+}
+
+
+#man_2 .second .right2 .per{
+    text-align: left;
+    
+}
+
+#man_2 .second .right2 p{
+    width: 500px;
+    font-weight: normal;
+    margin-top: -15px;
+    
+}
+
+
+#man_2 .second .right2 a{
+    color: white;
+    background-color: rgb(76, 80, 76);
+   padding: 12px 12px;
+   display: inline-block;
+   margin-top: 15px;
+   border-radius: 5px;
+   transition: .4s;
+}
+
+
+#man_2 .second .right2 a:hover{
+    background: rgb(250, 250, 251);
+    color: black;
+    border: 1px solid black;
+}
+
+
+/* man_TWO part end */
+
+
+
+
+/* feature part start */
+
+
+#feature{
+    margin-top: 50px;
+}
+
+#feature h2{
+    margin-top: 50px;
+}
+
+#feature p{
+    width: 700px;
+    margin-top: 20px;
+
+}
+
+
+#feature .btn{
+
+    background: rgb(76, 75, 75);
+    padding: 8px 13px;
+    margin-top: 10px;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+
+#feature .btn:hover{
+    background: rgb(110, 107, 107);
+    color: white;
+}
+
+
+
+
+
+/* feature part end */
+
+
+
+
+
+
+
+
+
+/* countdown part start */
+
+
+#cd_part{
+    margin-top: 130px;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.countdown{
+
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 750px;
+
+}
+
+.single-countdown{
+    width: 20px;
+    width: 150px;
+    display: inline-block;
+    background: #eee;
+   font-size: 16px;
+    padding: 30px 0;
+}
+
+.countdown  h1{
+    margin-bottom: 40px;
+}
+
+
+.single-countdown span{
+    font-size: 16px;
+}
+
+
+
+.video h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+.video{
+    
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+
+/* countdown part end */
+
+
+
+
+
+
+
+
+/* image part start */
+
+
+#image_part{
+    margin-top: 150px;
+    text-align: center;
+}
+
+#image_part .image_1{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#image_part .image_1 .one{
+    position: relative;
+}
+
+
+
+#image_part .image_1 .one .overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 98%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+}
+
+ #image_part .image_1 .one:hover .overlay{
+
+    opacity: 1;
+    
+} 
+
+
+
+#image_part .image_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+#image_part .image_2 .four{
+    position: relative;
+}
+
+
+
+#image_part .image_2 .four .overlay{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 98%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+}
+
+ #image_part .image_2 .four:hover .overlay{
+
+    opacity: 1;
+    
+} 
+
+
+
+/* image part end */
+
+
+
+
+
+
+
+
+
+/* location part start */
+
+#location_part{
+    margin-top: 150px;
+    
+}
+
+
+#location_part h2{
+
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+#location_part .left{
+
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+
+#location_part .left p{
+
+    width: 400px;
+}
+
+
+#location_part .left  .loca{
+
+    margin-top: -40px;
+    margin-bottom:35px;
+    margin-left: 80px;
+
+}
+
+
+
+
+
+#location_part .left .logo i{
+
+    height: 50px;
+    width: 50px;
+    background: rgb(235, 217, 217);
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 3;
+    transition: .4s;
+}
+
+
+
+#location_part .left .logo i:hover{
+    background: rgb(155, 152, 240);
+    color: white;
+}
+
+
+
+#location_part .right{
+
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+
+#location_part .right .LOCATE{
+    margin-left: 90px;
+}
+
+
+
+/* location part end */
+
+
+
+
+
+
+
+
+/* footer part start */
+
+#footer_part{
+
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background: rgb(67, 2, 67);
+    margin-top: 500px;
+
+}
+
+
+#footer_part p{
+    color: white;
+    margin-top: 20px;
+}
+
+#footer_part .foo{
+    margin-top: 10px;
+}
+
+#footer_part p span{
+    color: rgb(242, 196, 148);
+    
+}
+
+
+
+
+
+
+
+
+/* footer part end */
+
+
+
+
+
+
+.scroller_button button:hover{
+
+    color: white;
+    background: #1a1a1a;
+}
+
+
+.scroller_button button{
+    width: 40px;
+    height: 40px;
+    float: right;
+    background: rgb(172, 150, 246);
+    margin-top: -100px;
+    margin-right: 20px;
+    font-size: 20px;
+    border: 3px solid rgb(245, 241, 241);
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    transition: .4s;
+    /* margin: 30px; */
+    transition: .4s;
+} 

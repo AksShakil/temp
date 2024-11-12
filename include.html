@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>my project</title>
+</head>
+<body>
+
+
+    <section id="header_area">
+
+        <nav>
+            <img src="images/logo.png" alt="logo" class="logo">
+           
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <img src="images/user.png" alt="user" class="user_pic" onclick="toggleMenu()">
+        
+
+        <div class="sub_menu_wrap" id="submenu">
+            <div class="sub_menu">
+                <div class="user_info">
+                    <img src="images/user.png" alt="">
+                    <h2>aks shakil</h2>
+                </div>
+                <hr>
+
+                <a href="#" class="sub_menu_link">
+                    <img src="images/profile.png" alt="">
+                    <p>Edit Profile</p>
+                    <span>></span>
+
+                    <a href="#" class="sub_menu_link">
+                        <img src="images/setting.png" alt="">
+                        <p>Settings and Privacy</p>
+                        <span>></span>
+
+                        <a href="#" class="sub_menu_link">
+                            <img src="images/help.png" alt="">
+                            <p>Help & support</p>
+                            <span>></span>
+
+                            <a href="#" class="sub_menu_link">
+                                <img src="images/logout.png" alt="">
+                                <p>Logout</p>
+                                <span>></span>
+                </a>
+            </div>
+        </div>
+    
+        </nav>
+     
+        </div>
+
+    </section>
+
+
+
+    <section id="man">
+        <div class="blc"></div>
+        <div class="container">
+            <div class="tp">
+
+
+                <div class="left">
+
+                    <h3>THIS IS ME<h3>  
+                       
+                    <h2> PHILIP GILBERT</h2>
+                                         
+                <p class="mmm"> You will begin to realise why this exercise is called the Dickens
+                         Pattern with reference to the ghost showing Scrooge some different futures.
+                </p>
+
+                <!-- <button class="btn"><span>Discover Now</span></button> -->
+
+                <a href="#">discover Now</a>
+
+
+                </div>
+
+
+                    <div class="right">
+                        <img src="images/man.webp" alt="">
+                    </div>
+    
+           
+            </div>    
+        </div>
+
+
+    </section>
+
+
+
+    <section id="man_2">
+
+        <div class="container">
+
+            <h2>INSPIRE & INCREDIBLE</h2>
+
+            <div class="second">
+                <div class="left2">
+                    <img src="images/man2.webp" alt="man_two">
+                </div>
+    
+    
+    
+                <div class="right2">
+
+                <h3>ABOUT ME</h3> 
+                <h2 class="per">PERSONAL DETAILS</h2>
+                <p>Here, I focus on a range of items and features that we use in life
+                    without giving them a second thought. such as Coca Cola. Dolor sit amet, 
+                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+
+                <a href="https://hablu-programmer.github.io/project3/#">View full details</a>
+                </div>
+            </div>
+    
+
+
+        </div>
+      
+
+
+    </section>
+
+
+
+    <section id="feature">
+        <div class="container">
+            <h2 class="title title1 title2">Top Features</h2>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Culpa vel modi repellendus natus omnis quibusdam cumque
+                commodi porro pariatur. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit.Maxime eius doloremque veniam
+                distinctio, architecto quas itaque incidunt laboriosam commodi id.</p>
+
+                <button class="btn">CLICK HERE</button>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- <section id="feature">
+        <div class="container">
+            <h2 class="title title1 title2">Top Features</h2>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Culpa vel modi repellendus natus omnis quibusdam cumque
+                commodi porro pariatur. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit.Maxime eius doloremque veniam
+                distinctio, architecto quas itaque incidunt laboriosam commodi id.</p>
+    
+            <button class="btn">CLICK HERE</button>
+        </div>
+    </section>   -->
+ 
+
+
+<script>
+let submenu = document.getElementById("submenu");
+
+function toggleMenu(){
+    submenu.classList.toggle("open_menu");
+}
+</script>
+
+
+
+
+
+<section id="cd_part">
+
+    
+
+<div class="countdown">
+    <h1>Countdown</h1>
+    <div id="countdown-active"></div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" 
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-countdown@2.2.0/dist/jquery.countdown.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#countdown-active').countdown('2025/01/01', function(event) {
+      $(this).html(event.strftime('%D days %H:%M:%S'));
+      $(this).html(event.strftime('<div class="single-countdown"><h2>%D</h2><span>Days</span></div> <div class="single-countdown"><h2>%H</h2><span>Hours</span></div> <div class="single-countdown"><h2>%M</h2><span>Minutes</span></div> <div class="single-countdown"><h2>%S</h2><span>Seconds</span></div>'));
+
+    });
+  });
+</script>
+
+
+
+
+
+</section>
+
+
+
+
+<div class="video">
+
+    <h2>Video Part</h2>
+    <iframe width="600" height="300"  src="https://www.youtube.com/embed/KC611vlHxDI" title="Responsive Video Popup | Full Screen Overlay | HTML CSS &amp; JS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+
+
+<section id="image_part">
+
+    <div class="container">
+
+        <div class="title">
+
+            <h2>Our Latest Featured Projects</h2>
+          <span>Who are in extremely love with eco friendly system.</span>
+    
+        </div>
+    
+    
+    
+        <div class="image_1">
+            <div class="one">
+                <img src="images/01.webp" alt="">
+                <div class="overlay"></div>
+            </div>
+            <div class="one">
+                <img src="images/02.webp" alt="">
+                <div class="overlay"></div>
+            </div>
+            <div class="one">
+                <img src="images/03.webp" alt="">
+                <div class="overlay"></div>
+            </div>
+            
+
+        </div>
+
+        <div class="image_2">
+
+            <div class="four">
+                <img src="images/04.webp" alt="">
+                 <div class="overlay"></div>
+            </div>
+            <div class="four">
+                <img src="images/05.webp" alt="">
+                 <div class="overlay"></div>
+            </div>
+            <div class="four">
+                <img src="images/06.webp" alt="">
+                 <div class="overlay"></div>
+            </div>
+
+        </div>
+          
+    
+        </div>
+    
+    
+
+    </div>
+   
+</section>
+
+
+
+
+<section id="location_part">
+
+
+    <div class="container">
+
+        <h2>OUR LOCATION</h2>
+
+
+
+        <div class="left">
+
+            <div class="logo">
+
+                <div class="on">
+                    <i class="fa-brands fa-facebook-f" class="top"></i>
+                <p class="loca">facebook.com</p>
+                </div>
+               
+                <div class="on">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                <p class="loca">Aks Shakil</p>
+                </div>
+               
+                
+                
+                <div class="on">
+
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <p class="loca">Red Cresent Building,Motijheel</p>
+
+                   
+                
+                <div class="on">
+                    <i class="fa-brands fa-twitter"></i>
+                <p class="loca">twitter.com</p>
+                </div>
+                
+                
+                <div class="on">
+                <i class="fa-solid fa-envelope"></i>
+            <p class="loca">HopeIT solutions</p>
+
+                </div>
+                
+                <div class="on">
+
+                <i class="fa-brands fa-linkedin"></i>
+                <p class="loca">My linkedin</p>
+
+                </div>
+                
+
+            </div>
+           
+
+        </div>
+        <div class="right">
+            <div class="LOCATE">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.5193367774264!2d51.48820157489775!3d25.420895322604665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45e79240aff901%3A0x78b22e86c6d52895!2sLusail%20Stadium!5e0!3m2!1sbn!2sbd!4v1731359005400!5m2!1sbn!2sbd" 
+                width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+
+
+    </div>
+
+  
+
+</section>
+
+
+
+
+<section id="footer_part">
+    <p class="foo">copyright isssue <span>@help --- 01709091391</span></p>
+    <p>write some comment about the website</p>
+    <input type="text" placeholder="comment">
+
+
+
+    <div class="scroller_button">
+
+            
+        <button type="button" class="scrollTop">
+            <i class="fa-sharp fa-solid fa-arrow-up"></i>
+        </button>
+    
+        </div>
+      
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./js/script.js"></script>
+
+
+
+
+
+</body>
+</html>
